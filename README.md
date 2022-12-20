@@ -1,6 +1,13 @@
 # ICMCProcessor-POWN
 Based on the ICMC Processor architecture, the project added a new instruction: POWN. It consists of implementing the arithmetic operation potentiation within the processor's set of instructions.
 
+# How to run the simulator
+1) Open the terminal at the directory in which you installed the package
+2) Run these set of commands: ```./montador teste.asm teste.mif```
+```gcc Simple_Simulator.c -o Simple_Simulator```
+```./Simple_Simulator```
+3) The terminal should show the sequence "ABCDEFGIJKLMZNOP", idicating all the instructions are working properly
+
 # New processor instruction
 We added the instruction "POWN", which calculates the Nth power of a number (Rx <- Ry^Rz)
 ## defs.h
